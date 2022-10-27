@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <style>
+        *set the form to center*/
+form{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-group{
+    margin: 2%;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+button {
+      background-color:  #04AA6D;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: 10px;
+      cursor: pointer;
+      width: 100%;
+      border-radius: 5px;
+      
+      
+    }
+    
+    button:hover {
+      opacity: 0.8;
+    }
+    
+    .cancelbtn {
+      width: auto;
+      padding: 10px 18px;
+      background-color: pink;
+    }
+    </style>
+
+        <form class="form-control w-50" method="POST" action="./login.php">
+            <h1 class="form-group">Login</h1>
+            <hr>
+            <div class="form-row flex justify-content-center">
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary" name="submit">Submit</button><br>
+                    <a href="resetpassword.html" style="margin-right: 10%">Reset Password</a>
+                </div>
+                <div class="form-group">
+                    <p>Don't Have an account yet!: <br><a href="register.html">Register</a></p>
+                </div>
+            </div>
+            
+      </form>
+   
+    
+</div>
+</body>
+</html>

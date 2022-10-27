@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+  <body>
+    <div class="container1">
+        
+    <h1>Register</h1>
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+   
+    <form action="login.html" method="post">
+        
+            <label for="fname"><b>First Name:</b></label>
+            <input type="text" placeholder="Enter First Name" name="FirstName" id="FirstName" required><br>
+            <label for="lname"><b>Last Name:</b></label>
+            <input type="text" placeholder="Enter Last Name" name="LastName" id="LastName" required><br>
+      <label for="phonenumber"><b>phone Number:</b></label>
+      <input type="text" placeholder="Enter phone Number" name="phonenumber" id="phonenumber" required><br>
+      <label for="email"><b>Email:</b></label>
+      <input type="text" placeholder="Enter Email" name="email" id="email" required><br>
+      <b>Gender:</b>
+<label class="container">Male
+  <input type="checkbox">
+  <span class="checkmark"></span>
+</label>
+<label class="container">Female
+    <input type="checkbox" >
+    <span class="checkmark"></span>
+  </label><br><br>
+  
+    <label for="dateofbirth"><b>Date of Birth:</b></label></label>
+    <input type="date" id="birthday" name="dateofbirth"><br><br>
+      
+      <b>Favorite color:</b>
+  <div class="custom-select" style="width:200px;">
+   <select>
+    <option value="0">Choose color:</option>
+    <option value="1">Blue</option>
+    <option value="2">Yellow</option>
+    <option value="3">Purple</option>
+    <option value="4">Black</option>
+    <option value="5">Red</option>
+    <option value="6">White</option>
+    <option value="7">Gold</option>
+    <option value="8">Silver</option>
+    <option value="9">Pink</option>
+    <option value="10">Orange</option>
+    <option value="11">Magenta</option>
+    <option value="12">Brown</option>
+  </select>
+</div><br>
+      <label for="psw"><b> Create Password:</b></label>
+      <input type="password"  name="pwd" id="" required><br>
+      <label for="psw"><b> Repeat Password:</b></label>
+      <input type="password"  name="pwd" id="" required><br>
+
+      <button type="submit"><a href="login.html"></a>Submit</button><br>
+      <h4>Already have an account? <a href="./login.html"> LOG IN </a></h4>
+      
+
+    </form>
+    </div>
+  </body>
+</html>

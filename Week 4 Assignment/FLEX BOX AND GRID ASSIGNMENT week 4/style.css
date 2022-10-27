@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: hsl(0, 0%, 95%);
+  }
+  .sedans {
+    background-color: hsl(31, 77%, 52%);
+    padding: 2em;
+    width: 100%;
+  }
+  .luxury {
+    background-color: hsl(179, 100%, 13%);
+    padding: 2em;
+    width: 100%;
+  }
+  .suv {
+    background-color: hsl(184, 100%, 22%);
+    padding: 2em;
+    width: 100%;
+  }
+  main {
+    align-items: center;
+    height: 100vh;
+    text-align: left;
+    font-size: 15px;
+    color: white;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  h2 {
+    padding: 1em;
+    font-family: "Big Shoulders Display", Verdana, Tahoma, sans-serif;
+    margin-top: 3px;
+    text-align: left;
+    margin-bottom: 2px;
+    line-height: 1.5em;
+    font-weight: 700;
+  }
+  p {
+    line-height: 2em;
+    font-family: "Lexend Deca", 'Times New Roman', Times, serif
+    font-weight: 400;
+    margin-top: 3px;
+    margin-bottom: 2px;
+  }
+  button {
+    border-radius: 20px;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding: 12px;
+    margin: 15px 10px 15px 20px;
+    margin-top: 50px;
+    width: 10em;
+  }
+  button a {
+    color: white;
+    text-decoration: none;
+  }
+  .sedans button:hover {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+  }
+  .sedans button a:hover {
+    color: white;
+  }
+  .sedans button a {
+    color: hsl(31, 77%, 52%);
+  }
+  .suv button:hover {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+  }
+  .suv button a:hover {
+    color: white;
+  }
+  .suv button a {
+    color: hsl(184, 100%, 22%);
+  }
+  .luxury button:hover {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+  }
+  .luxury button a:hover {
+    color: white;
+  }
+  .luxury button a {
+    color: hsl(179, 100%, 13%);
+  }
+  @media (min-width: 375px) {
+    div {
+      background-attachment: fixed;
+    }
+  }
+  @media (max-width:1440px), (max-height: 768px) {
+    div {
+      margin-bottom: -150px;
+      height:80vh;
+     
+  }

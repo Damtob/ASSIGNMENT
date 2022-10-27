@@ -1,0 +1,17 @@
+<?php
+
+$csv = 
+array($_POST['name'],$_POST['email'],$_POST['dob'],$_POST['gender']),$_POST['country']);
+
+$file = fopen('form.csv', 'a');
+
+foreach ($csv as $line) 
+{
+  fputcsv($file,explode(',',$line));
+}
+
+fclose($file); 
+?>
+
+
+
